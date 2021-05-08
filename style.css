@@ -1,0 +1,108 @@
+
+body {
+	background: #F8F5F1; 
+	color :rgb(50,50,50);
+	font-family: 'Itim', cursive; 
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1, h2, h3{ 
+ 	font-family: 'Roboto Condensed', sans-serif; }
+h1 {
+	color:#ff8474;
+	font-size: 32px;
+	font-weight:900;  
+}
+ 
+h2 {
+	color:#ca8a8b; 
+	font-size:20; 
+	font-weight: lighter;
+	font-weight:500;
+}
+
+a {
+	text-decoration: none;
+	color:#de8971;
+	font-family: 'Roboto Condensed',sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+ 
+a : hover{
+	color: black;
+} 
+
+ /*custom design for tablet and phones */
+
+ .container {
+ 	width: 700px;
+ 	margin: 40px;
+ }
+
+ @media ( max-width: 700px) { 
+ .container {
+ 	width: 600px;
+ 	}
+ }
+
+
+ @media ( max-width: 500px) { 
+ .container {
+ 	width: 400px;*/
+ 	}
+ }
+
+ /*custom design with class */
+ .container {
+ 	width: 700px;
+ 	margin: 40px auto;
+ }
+ .card-white {
+ 	background-color: white;
+ 	padding:40px;
+ 	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+ 	border-radius: 4px; 
+ 	margin: 20px 0px ;
+ 	text-align: center;
+
+ }
+ .img-circle {
+ 	border-radius: 50%;
+ }
+
+ .btn-pink {
+ 	background-color:#de8971;
+ 	color: white;
+ 	padding: 15px 20px;
+ 	border-radius: 4px;
+
+  }
+  .btn-pink: hover {
+  	background-color: black;
+  	color: white;
+  }
+
+  .list-inline{
+  	list-style: none;
+  	padding-left: 0px;
+  }
+
+  .list-inline li {
+  	display: inline;
+  	padding: 10px;
+  }
+  .list-inline i {
+  	font-size: 30px;
+  	color: #a7bbc7;
+
+  }
+  .list-inline i:hover{
+  	font-size: 30px
+  	color:black;
+  }
+
+  #introduction p {
+  	margin-bottom: 20px;
+  }
